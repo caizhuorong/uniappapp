@@ -1,0 +1,168 @@
+{
+    "name" : "啪啪撸",
+    "appid" : "__UNI__2895C50",
+    "description" : "啪啪撸",
+    "versionName" : "1.0.2",
+    "versionCode" : 102,
+    "transformPx" : false,
+    "networkTimeout" : {
+        "request" : 7000
+    },
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : false,
+        "nvueCompiler" : "uni-app",
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : false,
+            "waiting" : false,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "VideoPlayer" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a" ],
+                "schemes" : "j6vf7q"
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "capabilities" : {
+                    "entitlements" : {
+                        "com.apple.developer.associated-domains" : [ "m.f2083.cn" ]
+                    }
+                },
+                "urltypes" : "j6vf7q",
+                "idfa" : false
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {},
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "",
+                    "iphone" : {
+                        "app@2x" : "C:/Users/Administrator/Desktop/tinified/120120.png",
+                        "app@3x" : "C:/Users/Administrator/Desktop/tinified/180180.png",
+                        "notification@2x" : "C:/Users/Administrator/Desktop/tinified/4040.png",
+                        "notification@3x" : "C:/Users/Administrator/Desktop/tinified/6060png.png",
+                        "settings@2x" : "C:/Users/Administrator/Desktop/tinified/5858png.png",
+                        "settings@3x" : "C:/Users/Administrator/Desktop/tinified/8787.png",
+                        "spotlight@2x" : "C:/Users/Administrator/Desktop/tinified/8080.png",
+                        "spotlight@3x" : "C:/Users/Administrator/Desktop/tinified/120120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "C:/Users/Administrator/Desktop/pl.9.png/pl.9.png",
+                    "xhdpi" : "C:/Users/Administrator/Desktop/pl.9.png/pl.9.png",
+                    "xxhdpi" : "C:/Users/Administrator/Desktop/pl.9.png/pl.9.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "C:/Users/Administrator/Desktop/12422688.png",
+                        "portrait-896h@2x" : "C:/Users/Administrator/Desktop/8281792.png",
+                        "iphonex" : "C:/Users/Administrator/Desktop/11252436.png",
+                        "retina47" : "C:/Users/Administrator/Desktop/7501334.png",
+                        "retina55" : "C:/Users/Administrator/Desktop/12422208.png"
+                    }
+                }
+            }
+        },
+        "nativePlugins" : {
+            "openinstall-plugin" : {
+                "APP_KEY" : "j6vf7q",
+                "__plugin_info__" : {
+                    "name" : "openinstall-免填邀请码",
+                    "description" : "此插件方便 uni-app 集成使用 openinstall 而开发",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=692",
+                    "android_package_name" : "uni.UNI2895C50",
+                    "ios_bundle_id" : "uni.UNI2895C50",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "692",
+                    "parameters" : {
+                        "APP_KEY" : {
+                            "des" : "openinstall为应用生成的appkey",
+                            "key" : "com.openinstall.APP_KEY",
+                            "value" : "123"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "mp-weixin" : {
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true,
+        "setting" : {
+            "urlCheck" : true
+        }
+    },
+    "mp-toutiao" : {
+        "setting" : {
+            "urlCheck" : true
+        },
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-qq" : {
+        "setting" : {
+            "urlCheck" : true,
+            "minified" : true
+        }
+    }
+}
+/* 快应用特有相关 */// "quickapp" : {},
+/* 小程序特有相关 */// "mp-weixin" : {
+//     "appid" : "",
+//     "setting" : {
+//         "urlCheck" : false
+//     },
+//     "usingComponents" : false
+// },
+// "mp-alipay" : {
+//     "usingComponents" : false
+// },
+// "mp-baidu" : {
+//     "usingComponents" : false,
+//     "setting" : {
+//         "urlCheck" : false
+//     }
+// },
+// "mp-toutiao" : {
+//     "usingComponents" : false,
+//     "setting" : {
+//         "urlCheck" : false
+//     }
+// },
+// "mp-qq" : {
+//     "setting" : {
+//         "urlCheck" : false
+//     }
+// },
+// "h5" : {
+//     "devServer" : {
+//         "https" : false
+//     }
+// }
+

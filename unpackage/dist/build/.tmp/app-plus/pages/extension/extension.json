@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": {
+    "titleText": "推广"
+  },
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

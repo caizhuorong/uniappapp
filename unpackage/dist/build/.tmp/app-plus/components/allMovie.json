@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "more-movie-list": "/components/moreMovieList"
+  },
+  "component": true
+}

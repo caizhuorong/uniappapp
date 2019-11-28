@@ -1,0 +1,1 @@
+<view class="content"><view class="list"><block wx:for="{{moreMovieArray}}" wx:for-item="x" wx:for-index="y" wx:key="y"><more-movie-list vue-id="{{'1-'+y}}" tid="{{currentTypeId}}" moreMovieListObject="{{x}}" bind:__l="__l"></more-movie-list></block></view><block wx:if="{{allLoaded&&moreMovieArray.length>=20}}"><view class="allLoadedTips">已全部加载</view></block></view>

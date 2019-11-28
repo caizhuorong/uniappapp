@@ -1,0 +1,193 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__2895C50",
+  "name": "啪啪撸",
+  "version": {
+    "name": "1.0.2",
+    "code": 102
+  },
+  "description": "啪啪撸",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "VideoPlayer": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "autoclose": false,
+      "waiting": false,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#ffffff"
+    },
+    "usingComponents": false,
+    "nvueCompiler": "uni-app",
+    "distribute": {
+      "icons": {
+        "android": {
+          "hdpi": "unpackage/res/icons/72x72.png",
+          "xhdpi": "unpackage/res/icons/96x96.png",
+          "xxhdpi": "unpackage/res/icons/144x144.png",
+          "xxxhdpi": "unpackage/res/icons/192x192.png"
+        },
+        "ios": {
+          "appstore": "",
+          "iphone": {
+            "app@2x": "C:/Users/Administrator/Desktop/tinified/120120.png",
+            "app@3x": "C:/Users/Administrator/Desktop/tinified/180180.png",
+            "notification@2x": "C:/Users/Administrator/Desktop/tinified/4040.png",
+            "notification@3x": "C:/Users/Administrator/Desktop/tinified/6060png.png",
+            "settings@2x": "C:/Users/Administrator/Desktop/tinified/5858png.png",
+            "settings@3x": "C:/Users/Administrator/Desktop/tinified/8787.png",
+            "spotlight@2x": "C:/Users/Administrator/Desktop/tinified/8080.png",
+            "spotlight@3x": "C:/Users/Administrator/Desktop/tinified/120120.png"
+          }
+        }
+      },
+      "splashscreen": {
+        "android": {
+          "hdpi": "C:/Users/Administrator/Desktop/pl.9.png/pl.9.png",
+          "xhdpi": "C:/Users/Administrator/Desktop/pl.9.png/pl.9.png",
+          "xxhdpi": "C:/Users/Administrator/Desktop/pl.9.png/pl.9.png"
+        },
+        "ios": {
+          "iphone": {
+            "portrait-896h@3x": "C:/Users/Administrator/Desktop/12422688.png",
+            "portrait-896h@2x": "C:/Users/Administrator/Desktop/8281792.png",
+            "iphonex": "C:/Users/Administrator/Desktop/11252436.png",
+            "retina47": "C:/Users/Administrator/Desktop/7501334.png",
+            "retina55": "C:/Users/Administrator/Desktop/12422208.png"
+          }
+        }
+      },
+      "google": {
+        "permissions": [],
+        "abiFilters": [
+          "armeabi-v7a",
+          "arm64-v8a"
+        ],
+        "schemes": "j6vf7q"
+      },
+      "apple": {
+        "capabilities": {
+          "entitlements": {
+            "com.apple.developer.associated-domains": [
+              "m.f2083.cn"
+            ]
+          }
+        },
+        "urltypes": "j6vf7q",
+        "idfa": false
+      },
+      "plugins": {
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "nativePlugins": {
+      "openinstall-plugin": {
+        "APP_KEY": "j6vf7q",
+        "__plugin_info__": {
+          "name": "openinstall-免填邀请码",
+          "description": "此插件方便 uni-app 集成使用 openinstall 而开发",
+          "platforms": "Android,iOS",
+          "url": "https://ext.dcloud.net.cn/plugin?id=692",
+          "android_package_name": "uni.UNI2895C50",
+          "ios_bundle_id": "uni.UNI2895C50",
+          "isCloud": true,
+          "bought": 1,
+          "pid": "692",
+          "parameters": {
+            "APP_KEY": {
+              "des": "openinstall为应用生成的appkey",
+              "key": "com.openinstall.APP_KEY",
+              "value": "123"
+            }
+          }
+        }
+      }
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#ffffff",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "2.4.2",
+      "control": "v8",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      }
+    },
+    "tabBar": {
+      "color": "#666666",
+      "selectedColor": "#df5a51",
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "backgroundColor": "#ffffff",
+      "height": "60px",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "static/icon1s.png",
+          "selectedIconPath": "static/icon1.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/channel/channel",
+          "iconPath": "static/icon2s.png",
+          "selectedIconPath": "static/icon2.png",
+          "text": "分类"
+        },
+        {
+          "pagePath": "pages/vipCenter/vipCenter",
+          "iconPath": "static/icon3s.png",
+          "selectedIconPath": "static/icon3.png",
+          "text": "充值"
+        },
+        {
+          "pagePath": "pages/liveBroadcast/liveBroadcast",
+          "iconPath": "static/2.png",
+          "selectedIconPath": "static/37.png",
+          "text": "直播"
+        },
+        {
+          "pagePath": "pages/selfCenter/selfCenter",
+          "iconPath": "static/icon5s.png",
+          "selectedIconPath": "static/icon5.png",
+          "text": "我的"
+        }
+      ]
+    }
+  }
+}

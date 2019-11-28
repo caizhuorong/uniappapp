@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['changeQuickWords']]]]}}" class="{{['feedbackQuickWords data-v-7b32e69a',(isChoose)?'active':'']}}" bindtap="__e">{{feedbackQuickWordsValue}}</view>

@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 50,
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "all-movie": "/components/allMovie"
+  }
+}

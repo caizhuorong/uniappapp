@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/index/index",
+    "pages/channel/channel",
+    "pages/liveBroadcast/liveBroadcast",
+    "pages/vipCenter/vipCenter",
+    "pages/shortMovie/shortMovie",
+    "pages/selfCenter/selfCenter",
+    "pages/search/search",
+    "pages/playRecord/playRecord",
+    "pages/collect/collect",
+    "pages/movieDetails/movieDetails",
+    "pages/moreMovie/moreMovie",
+    "pages/liveBroadcastList/liveBroadcastList",
+    "pages/liveBroadcastDetail/liveBroadcastDetail",
+    "pages/kefu/kefu",
+    "pages/aboutUs/aboutUs",
+    "pages/agreement/agreement",
+    "pages/privacy/privacy",
+    "pages/service/service",
+    "pages/extension/extension",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "夜猫先生",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8",
+    "animationType": "fade-in"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#df5a51",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "60px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon1s.png",
+        "selectedIconPath": "static/icon1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/channel/channel",
+        "iconPath": "static/icon2s.png",
+        "selectedIconPath": "static/icon2.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/vipCenter/vipCenter",
+        "iconPath": "static/icon3s.png",
+        "selectedIconPath": "static/icon3.png",
+        "text": "充值"
+      },
+      {
+        "pagePath": "pages/liveBroadcast/liveBroadcast",
+        "iconPath": "static/2.png",
+        "selectedIconPath": "static/37.png",
+        "text": "直播"
+      },
+      {
+        "pagePath": "pages/selfCenter/selfCenter",
+        "iconPath": "static/icon5s.png",
+        "selectedIconPath": "static/icon5.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 7000
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": false,
+    "autoclose": true
+  },
+  "appname": "啪啪撸",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}

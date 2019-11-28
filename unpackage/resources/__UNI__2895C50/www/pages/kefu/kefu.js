@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"kefu.",[1],"data-v-7106d572 { width: 100%; height: 100%; position: fixed; top: 0; left: 0; }\n",],undefined,{path:"./pages/kefu/kefu.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/kefu/kefu.wxml') } }));
